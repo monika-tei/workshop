@@ -26,3 +26,4 @@ Layout
 
 Images
 // next can create 16 different size images for us!
+// to view them, at the url local host add /dogs/henry or /dogs/random
