@@ -1,0 +1,15 @@
+// will be working in pages
+
+// cleanup the CSS files and index.js
+
+//_app.js will init our pages, whatever happens there will happen on every page!
+
+//renaming js to jsx
+
+//create folder in pages
+//run localhost:3000/dogs/henry
+//Link components, if we use a tag it will rerun the whole page, no no. we can test that it doesnt reload, and a tag does
+//Link will prefetch (the page will already be downloaded, its not always needed...why should we use the resources, wasteful practice// possibility of prefetch)
+      <Link prefetch={false} href="/dogs/henry">
+// as a solution, we can create our own anchor tag!!
+
