@@ -12,4 +12,17 @@
 //Link will prefetch (the page will already be downloaded, its not always needed...why should we use the resources, wasteful practice// possibility of prefetch)
       <Link prefetch={false} href="/dogs/henry">
 // as a solution, we can create our own anchor tag!!
+// so now it loads a single page site without prefetch
 
+
+<Head> component is good for the meta tags, SEO and that sort of stuff
+
+Layout
+      - helps structuring the layout of the page. 
+      in place of content we should use {Children}
+      - use it in _app
+
+
+
+Images
+// next can create 16 different size images for us!

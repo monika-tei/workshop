@@ -3,7 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
-  padding: 0rem 1rem;
+  padding: 10rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }

@@ -1,15 +1,14 @@
-import Link from "next/link";
+import Anchor from "@/components/Anchor";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <>
-      <h1>Hello from home</h1>
-      <Link href="/dogs/henry">Henry</Link>
-      <Link prefetch={false} href="/dogs/henry">
-        Henry
-      </Link>
-
-      <a href="/dogs/henry">Henry</a>
+      <Head>
+        <title>Welcome to dog page</title>
+      </Head>
+      <h1>Hello from Home</h1>
+      <Anchor href="/dogs/henry">Henry</Anchor>
     </>
   );
 }
